@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "name": { "en": "Room to Breathe", "es": "Espacio para respirar" },
+  "style": "oak",
+  "shape": [
+    "######",
+    "######",
+    "######",
+    "######",
+    "######",
+    "######"
+  ],
+  "doors": [{ "cell": [0, 4], "side": "W", "width": 2 }],
+  "windows": [{ "cell": [2, 0], "side": "N", "width": 2 }],
+  "pieces": ["bed_single", "nightstand", "wardrobe"],
+  "rules": ["clearance"],
+  "hint": { "en": "Furniture needs room to be used: a bed needs one free side, a wardrobe needs space to open.", "es": "Los muebles necesitan espacio para usarse: la cama, un lado libre; el armario, espacio para abrir." }
+}

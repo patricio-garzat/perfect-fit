@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "name": { "en": "Snug", "es": "Acogedora" },
+  "style": "oak",
+  "shape": [
+    "######",
+    "######",
+    "######",
+    "######",
+    "######",
+    "######",
+    "######"
+  ],
+  "doors": [
+    { "cell": [0, 5], "side": "W", "width": 2 }
+  ],
+  "windows": [
+    { "cell": [2, 0], "side": "N", "width": 2 }
+  ],
+  "pieces": ["bed_double", { "kind": "nightstand", "count": 2 }, "wardrobe", "dresser"],
+  "rules": ["clearance"],
+  "hint": { "en": "A bigger bed, the same small room. Every half meter counts.", "es": "Una cama más grande en el mismo cuarto pequeño. Cada medio metro cuenta." }
+}

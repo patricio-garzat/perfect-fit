@@ -1,0 +1,22 @@
+{
+  "id": 5,
+  "name": { "en": "The Way In", "es": "El camino" },
+  "style": "linen",
+  "shape": [
+    "#######",
+    "#######",
+    "#######",
+    "#######",
+    "#######",
+    "#######"
+  ],
+  "doors": [
+    { "cell": [3, 0], "side": "N", "width": 2 }
+  ],
+  "windows": [
+    { "cell": [6, 2], "side": "E", "width": 2 }
+  ],
+  "pieces": ["bed_double", { "kind": "nightstand", "count": 2 }, "wardrobe", "bookcase", "armchair"],
+  "rules": ["clearance", "access"],
+  "hint": { "en": "From now on, you must be able to walk from the door to every piece.", "es": "Desde ahora, debes poder caminar de la puerta a cada mueble." }
+}

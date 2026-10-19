@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "name": { "en": "A Quarter Turn", "es": "Un cuarto de vuelta" },
+  "style": "oak",
+  "shape": [
+    "######",
+    "######",
+    "######",
+    "######",
+    "######",
+    "######"
+  ],
+  "doors": [{ "cell": [1, 5], "side": "S", "width": 2 }],
+  "windows": [{ "cell": [5, 2], "side": "E", "width": 2 }],
+  "pieces": ["bed_single", "nightstand", "wardrobe", "dresser"],
+  "rules": ["clearance"],
+  "hint": { "en": "Not everything fits on one wall. Tap the turn button to rotate a piece.", "es": "No todo cabe en una pared. Toca el botón de girar para rotar un mueble." }
+}

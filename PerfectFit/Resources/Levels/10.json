@@ -1,0 +1,25 @@
+{
+  "id": 10,
+  "name": { "en": "The Penthouse", "es": "El penthouse" },
+  "style": "walnut",
+  "shape": [
+    "..#########",
+    "###########",
+    "###########",
+    "###########",
+    "#####X#####",
+    "###########",
+    "###########",
+    "#######...."
+  ],
+  "doors": [
+    { "cell": [0, 1], "side": "W", "width": 2 }
+  ],
+  "windows": [
+    { "cell": [5, 0], "side": "N", "width": 3 },
+    { "cell": [10, 3], "side": "E", "width": 2 }
+  ],
+  "pieces": ["bed_double", { "kind": "nightstand", "count": 2 }, "wardrobe", "dresser", "sofa", "coffee_table", "armchair", "floor_lamp", "desk", "chair", "plant", "rug"],
+  "rules": ["clearance", "access", "windows"],
+  "hint": { "en": "The last room: everything you've learned, all at once.", "es": "La última habitación: todo lo que aprendiste, a la vez." }
+}

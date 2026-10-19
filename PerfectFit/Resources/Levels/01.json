@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "name": { "en": "First Light", "es": "Primera luz" },
+  "style": "oak",
+  "shape": [
+    "#####",
+    "#####",
+    "#####",
+    "#####",
+    "#####",
+    "#####"
+  ],
+  "doors": [{ "cell": [3, 5], "side": "S", "width": 2 }],
+  "windows": [{ "cell": [1, 0], "side": "N", "width": 2 }],
+  "pieces": ["bed_single", "nightstand"],
+  "rules": [],
+  "hint": { "en": "Drag each piece into the room. Keep the door's swing clear.", "es": "Arrastra cada mueble a la habitación. Deja libre el paso de la puerta." }
+}

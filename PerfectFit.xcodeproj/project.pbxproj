@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034903EB3056EE520553C8E3 /* SceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1F350E275E0EBC71AD38B /* SceneController.swift */; };
+		16C9EE873E2EF94D00D7B4A1 /* PerfectFitCore in Frameworks */ = {isa = PBXBuildFile; productRef = F8239439E90B1A169569D3A4 /* PerfectFitCore */; };
+		404D6A617865EBFEAA3782F7 /* Intro in Resources */ = {isa = PBXBuildFile; fileRef = 66836F59AEB123BA054529BD /* Intro */; };
+		43C02301B75870981B70E945 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0563F6B5D582BC9618E148 /* Sheets.swift */; };
+		455D1D66377E680B48A9CE03 /* IconMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F74C94EA7E84A57B924E51 /* IconMaker.swift */; };
+		4B823983591A72A1444ACDA2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F25FC2CC1B361D81C5A7B /* RootView.swift */; };
+		5034FC22B47491654942C58E /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11706A511219D54EA381AB73 /* GameSession.swift */; };
+		5AE8A5EF7FD2AC5343160235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BBEE7BA57FF8EA1CC8E75E /* Assets.xcassets */; };
+		6069F2D56AED9E9F77DD306D /* Materials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C225E6D9889F5E282ABB3 /* Materials.swift */; };
+		6338F726C59FF9A522C3FB6A /* Thumbnails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593950AC3DAD2C3F1E07385F /* Thumbnails.swift */; };
+		64E136AC31D2CF22ABB2F215 /* RoomBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0929F319405019B1682CEB6C /* RoomBuilder.swift */; };
+		694EE38CB500C465A29D1B75 /* VictoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8E8BF4A0F911C22FC077C /* VictoryView.swift */; };
+		712F11017921038845DB0404 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C09EF3F2B1BBD7FA01110C /* Strings.swift */; };
+		7AD77EAFD7F88CA13DC0655A /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE5D543B72B079C2714348 /* LevelsView.swift */; };
+		7F75D34A301F309BB6684782 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA81931B4834E0AF7B9ECFC /* HomeView.swift */; };
+		8D9FF78F9B8A1E3B376BEAF9 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E929FB7F9A3C92B72CFE57 /* GameView.swift */; };
+		9D3ABE27D60060053FB3667A /* FurnitureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCDFD4DC6645A0879E2E66C /* FurnitureModels.swift */; };
+		A17DECE73C0C51827DDC8256 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8743E2F56C7CF9F2C6537A39 /* Theme.swift */; };
+		B57491AA61F6697A63718F04 /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = 26C9954C1CB12F69134E2AC2 /* Levels */; };
+		B6BEE09E002434F29B77E5A8 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AE965098FE4C7F1E349F93 /* Sound.swift */; };
+		B819F59040444631CA7DCDBB /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 0CC876D7F6BCADC7EC57B062 /* Models */; };
+		EEC9E6BA2B4DAE2E01E5016F /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218C2EFAFEA8B371EE5C6AC /* Haptics.swift */; };
+		EF421EBED1B2A3D1A6F1A02D /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = B8B2DA5677D40497012673EE /* Textures */; };
+		F3F1431FC7C430561B855D79 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13280BFDBB391324F3B8F3F3 /* Components.swift */; };
+		FBD8590081312914CE7F68F1 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6489F12AECA94E5AB569920E /* AppModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0929F319405019B1682CEB6C /* RoomBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomBuilder.swift; sourceTree = "<group>"; };
+		0CC876D7F6BCADC7EC57B062 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Models; path = PerfectFit/Resources/Models; sourceTree = SOURCE_ROOT; };
+		11706A511219D54EA381AB73 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		13280BFDBB391324F3B8F3F3 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		26C9954C1CB12F69134E2AC2 /* Levels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Levels; path = PerfectFit/Resources/Levels; sourceTree = SOURCE_ROOT; };
+		29E8E8BF4A0F911C22FC077C /* VictoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryView.swift; sourceTree = "<group>"; };
+		32E1F350E275E0EBC71AD38B /* SceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneController.swift; sourceTree = "<group>"; };
+		39A090A4C751D12408AF721F /* PerfectFitCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PerfectFitCore; path = Packages/PerfectFitCore; sourceTree = SOURCE_ROOT; };
+		4861D763F8EE5F96C0A5EA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5218C2EFAFEA8B371EE5C6AC /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		552C225E6D9889F5E282ABB3 /* Materials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materials.swift; sourceTree = "<group>"; };
+		56AE965098FE4C7F1E349F93 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		593950AC3DAD2C3F1E07385F /* Thumbnails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnails.swift; sourceTree = "<group>"; };
+		5D0563F6B5D582BC9618E148 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		62E929FB7F9A3C92B72CFE57 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		6489F12AECA94E5AB569920E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		66836F59AEB123BA054529BD /* Intro */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Intro; path = PerfectFit/Resources/Intro; sourceTree = SOURCE_ROOT; };
+		683F25FC2CC1B361D81C5A7B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		6EA81931B4834E0AF7B9ECFC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8743E2F56C7CF9F2C6537A39 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8BEE5D543B72B079C2714348 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		A5AAA4C279A7B51622517A1C /* PerfectFit.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PerfectFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B2DA5677D40497012673EE /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = PerfectFit/Resources/Textures; sourceTree = SOURCE_ROOT; };
+		D5C09EF3F2B1BBD7FA01110C /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		DBCDFD4DC6645A0879E2E66C /* FurnitureModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureModels.swift; sourceTree = "<group>"; };
+		E5BBEE7BA57FF8EA1CC8E75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2F74C94EA7E84A57B924E51 /* IconMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconMaker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D15392E34A8A0937BB013B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C9EE873E2EF94D00D7B4A1 /* PerfectFitCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11EB20128990CE5674F50B7E /* PerfectFit */ = {
+			isa = PBXGroup;
+			children = (
+				E5BBEE7BA57FF8EA1CC8E75E /* Assets.xcassets */,
+				4861D763F8EE5F96C0A5EA44 /* Info.plist */,
+				8A9A171B65816F789472F7B4 /* App */,
+				86AF413ED2AF936A80F31F56 /* Audio */,
+				8DBA5365AF4D7B04F4B95C89 /* Game */,
+				597E9AE1CDD51B286BDB248E /* Render */,
+				2FDD5F7E2211F487844DFA19 /* Resources */,
+				E252FAA5DE948DE04FA095FC /* UI */,
+			);
+			path = PerfectFit;
+			sourceTree = "<group>";
+		};
+		2FDD5F7E2211F487844DFA19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66836F59AEB123BA054529BD /* Intro */,
+				26C9954C1CB12F69134E2AC2 /* Levels */,
+				0CC876D7F6BCADC7EC57B062 /* Models */,
+				B8B2DA5677D40497012673EE /* Textures */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		597E9AE1CDD51B286BDB248E /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				DBCDFD4DC6645A0879E2E66C /* FurnitureModels.swift */,
+				F2F74C94EA7E84A57B924E51 /* IconMaker.swift */,
+				552C225E6D9889F5E282ABB3 /* Materials.swift */,
+				0929F319405019B1682CEB6C /* RoomBuilder.swift */,
+				32E1F350E275E0EBC71AD38B /* SceneController.swift */,
+				593950AC3DAD2C3F1E07385F /* Thumbnails.swift */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		86AF413ED2AF936A80F31F56 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				5218C2EFAFEA8B371EE5C6AC /* Haptics.swift */,
+				56AE965098FE4C7F1E349F93 /* Sound.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		8A9A171B65816F789472F7B4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6489F12AECA94E5AB569920E /* AppModel.swift */,
+				D5C09EF3F2B1BBD7FA01110C /* Strings.swift */,
+				8743E2F56C7CF9F2C6537A39 /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8DBA5365AF4D7B04F4B95C89 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				11706A511219D54EA381AB73 /* GameSession.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		9BEA1A21DBBFB52EEBBA8DA4 = {
+			isa = PBXGroup;
+			children = (
+				B753DB9069221F0DD2A6CA5A /* Packages */,
+				11EB20128990CE5674F50B7E /* PerfectFit */,
+				CA00734245E7C84F0C416E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B753DB9069221F0DD2A6CA5A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				39A090A4C751D12408AF721F /* PerfectFitCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		CA00734245E7C84F0C416E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5AAA4C279A7B51622517A1C /* PerfectFit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E252FAA5DE948DE04FA095FC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				13280BFDBB391324F3B8F3F3 /* Components.swift */,
+				62E929FB7F9A3C92B72CFE57 /* GameView.swift */,
+				6EA81931B4834E0AF7B9ECFC /* HomeView.swift */,
+				8BEE5D543B72B079C2714348 /* LevelsView.swift */,
+				683F25FC2CC1B361D81C5A7B /* RootView.swift */,
+				5D0563F6B5D582BC9618E148 /* Sheets.swift */,
+				29E8E8BF4A0F911C22FC077C /* VictoryView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48104BD4F2BAE4447390FF98 /* PerfectFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD79AEF0A459FDA7445254F9 /* Build configuration list for PBXNativeTarget "PerfectFit" */;
+			buildPhases = (
+				07DEC455C0FF830C1DA3E193 /* Sources */,
+				3BD3FB2089F7684B4FF794B8 /* Resources */,
+				D15392E34A8A0937BB013B19 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectFit;
+			packageProductDependencies = (
+				F8239439E90B1A169569D3A4 /* PerfectFitCore */,
+			);
+			productName = PerfectFit;
+			productReference = A5AAA4C279A7B51622517A1C /* PerfectFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF29A7C6EFDBAAF3A3B8D22A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					48104BD4F2BAE4447390FF98 = {
+						DevelopmentTeam = CGW77RJS5Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 001A77A45EDB373EAAD0B02B /* Build configuration list for PBXProject "PerfectFit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9BEA1A21DBBFB52EEBBA8DA4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0C5265ECD9A764674E79E221 /* XCLocalSwiftPackageReference "Packages/PerfectFitCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CA00734245E7C84F0C416E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48104BD4F2BAE4447390FF98 /* PerfectFit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD3FB2089F7684B4FF794B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE8A5EF7FD2AC5343160235 /* Assets.xcassets in Resources */,
+				404D6A617865EBFEAA3782F7 /* Intro in Resources */,
+				B57491AA61F6697A63718F04 /* Levels in Resources */,
+				B819F59040444631CA7DCDBB /* Models in Resources */,
+				EF421EBED1B2A3D1A6F1A02D /* Textures in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07DEC455C0FF830C1DA3E193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD8590081312914CE7F68F1 /* AppModel.swift in Sources */,
+				F3F1431FC7C430561B855D79 /* Components.swift in Sources */,
+				9D3ABE27D60060053FB3667A /* FurnitureModels.swift in Sources */,
+				5034FC22B47491654942C58E /* GameSession.swift in Sources */,
+				8D9FF78F9B8A1E3B376BEAF9 /* GameView.swift in Sources */,
+				EEC9E6BA2B4DAE2E01E5016F /* Haptics.swift in Sources */,
+				7F75D34A301F309BB6684782 /* HomeView.swift in Sources */,
+				455D1D66377E680B48A9CE03 /* IconMaker.swift in Sources */,
+				7AD77EAFD7F88CA13DC0655A /* LevelsView.swift in Sources */,
+				6069F2D56AED9E9F77DD306D /* Materials.swift in Sources */,
+				64E136AC31D2CF22ABB2F215 /* RoomBuilder.swift in Sources */,
+				4B823983591A72A1444ACDA2 /* RootView.swift in Sources */,
+				034903EB3056EE520553C8E3 /* SceneController.swift in Sources */,
+				43C02301B75870981B70E945 /* Sheets.swift in Sources */,
+				B6BEE09E002434F29B77E5A8 /* Sound.swift in Sources */,
+				712F11017921038845DB0404 /* Strings.swift in Sources */,
+				A17DECE73C0C51827DDC8256 /* Theme.swift in Sources */,
+				6338F726C59FF9A522C3FB6A /* Thumbnails.swift in Sources */,
+				694EE38CB500C465A29D1B75 /* VictoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55DD6E650016FB36F14A702E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_DISPLAY_NAME = "Perfect Fit";
+				APP_ICON_SUFFIX = "";
+				BUNDLE_ID_SUFFIX = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CGW77RJS5Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9FF4599B18DD033E6CA75D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_DISPLAY_NAME = "Perfect Fit";
+				APP_ICON_SUFFIX = "";
+				BUNDLE_ID_SUFFIX = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CGW77RJS5Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BB876320C18FFD3065F4E2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(APP_ICON_SUFFIX)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PerfectFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blubergames.perfectfit$(BUNDLE_ID_SUFFIX)";
+				PRODUCT_NAME = PerfectFit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D695BCC991952191342584D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(APP_ICON_SUFFIX)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PerfectFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blubergames.perfectfit$(BUNDLE_ID_SUFFIX)";
+				PRODUCT_NAME = PerfectFit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001A77A45EDB373EAAD0B02B /* Build configuration list for PBXProject "PerfectFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF4599B18DD033E6CA75D45 /* Debug */,
+				55DD6E650016FB36F14A702E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD79AEF0A459FDA7445254F9 /* Build configuration list for PBXNativeTarget "PerfectFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB876320C18FFD3065F4E2E2 /* Debug */,
+				D695BCC991952191342584D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0C5265ECD9A764674E79E221 /* XCLocalSwiftPackageReference "Packages/PerfectFitCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PerfectFitCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8239439E90B1A169569D3A4 /* PerfectFitCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PerfectFitCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EF29A7C6EFDBAAF3A3B8D22A /* Project object */;
+}

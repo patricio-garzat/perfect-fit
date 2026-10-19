@@ -1,0 +1,23 @@
+{
+  "id": 7,
+  "name": { "en": "The Nook", "es": "El rincón" },
+  "style": "walnut",
+  "shape": [
+    "########",
+    "########",
+    "########",
+    "########",
+    "#####...",
+    "#####..."
+  ],
+  "doors": [
+    { "cell": [7, 2], "side": "E", "width": 2 }
+  ],
+  "windows": [
+    { "cell": [0, 4], "side": "W", "width": 2 },
+    { "cell": [3, 0], "side": "N", "width": 2 }
+  ],
+  "pieces": ["bed_double", { "kind": "nightstand", "count": 2 }, "wardrobe", "dresser", "armchair", "floor_lamp", "rug"],
+  "rules": ["clearance", "access", "windows"],
+  "hint": { "en": "An L-shaped room. The corner hides more space than it seems.", "es": "Una habitación en L. La esquina esconde más espacio del que parece." }
+}

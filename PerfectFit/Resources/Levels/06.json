@@ -1,0 +1,23 @@
+{
+  "id": 6,
+  "name": { "en": "Morning Light", "es": "Luz de mañana" },
+  "style": "linen",
+  "shape": [
+    "#######",
+    "#######",
+    "#######",
+    "#######",
+    "#######",
+    "#######"
+  ],
+  "doors": [
+    { "cell": [0, 4], "side": "W", "width": 2 }
+  ],
+  "windows": [
+    { "cell": [1, 0], "side": "N", "width": 2 },
+    { "cell": [6, 1], "side": "E", "width": 2 }
+  ],
+  "pieces": ["bed_single", "nightstand", "desk", "chair", "bookcase", "wardrobe", "plant"],
+  "rules": ["clearance", "access", "windows"],
+  "hint": { "en": "Windows matter: the desk wants daylight, and tall pieces must not cover a window.", "es": "Las ventanas importan: el escritorio quiere luz y los muebles altos no deben taparlas." }
+}

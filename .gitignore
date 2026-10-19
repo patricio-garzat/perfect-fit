@@ -1,0 +1,9 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.build/
+.swiftpm/
+# raw Poly Haven downloads (54 MB); tools/assets/fetch.py gets them again
+assets-src/
